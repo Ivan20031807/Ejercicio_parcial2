@@ -34,6 +34,7 @@ namespace Ejercicio_parcial2
             this.btncalcular = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.lstPalabras = new System.Windows.Forms.ListBox();
+            this.btnSaludar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -78,14 +79,25 @@ namespace Ejercicio_parcial2
             this.lstPalabras.FormattingEnabled = true;
             this.lstPalabras.Location = new System.Drawing.Point(34, 151);
             this.lstPalabras.Name = "lstPalabras";
-            this.lstPalabras.Size = new System.Drawing.Size(423, 95);
+            this.lstPalabras.Size = new System.Drawing.Size(396, 95);
             this.lstPalabras.TabIndex = 4;
+            // 
+            // btnSaludar
+            // 
+            this.btnSaludar.Location = new System.Drawing.Point(471, 161);
+            this.btnSaludar.Name = "btnSaludar";
+            this.btnSaludar.Size = new System.Drawing.Size(119, 59);
+            this.btnSaludar.TabIndex = 5;
+            this.btnSaludar.Text = "Saludar";
+            this.btnSaludar.UseVisualStyleBackColor = true;
+            this.btnSaludar.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmEjercicio02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnSaludar);
             this.Controls.Add(this.lstPalabras);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btncalcular);
@@ -105,6 +117,7 @@ namespace Ejercicio_parcial2
         private System.Windows.Forms.Button btncalcular;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox lstPalabras;
+        private System.Windows.Forms.Button btnSaludar;
     }
 }
 
